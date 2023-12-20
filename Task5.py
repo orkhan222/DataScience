@@ -39,6 +39,7 @@ for password in passwords:
 
 
 print('='*100)
+# --------------------------------------------------------------------------------------------------------------------------------------------
 #* I have written a function for each of the 2nd methods.
 
 
@@ -62,7 +63,7 @@ passwords = ["Password123!", "weakpass", "StrongerPass@123", "12345678", "NoSpec
 for password in passwords:
     print(f"Password '{password}' is {check_password(password)}.")
 
-
+# --------------------------------------------------------------------------------------------------------------------------------------------
 print('='*100)
 # I wrote a function for each of the 3rd methods.
 
