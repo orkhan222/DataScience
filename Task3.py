@@ -12,30 +12,56 @@ data = [
     {"name": "Adil", "age": 49, "salary": 1660},
     {"name": "Asmar", "age": 22, "salary": 1200}
 ]
+
+
+
+# fil
+
+# fil = list(filter(lambda x: x['age'] >=30, data))
+# print("Filtered  (Age >= 30):", fil)
+
+
+
+
+
+# mean = sum(map(lambda x:x['salary'],data)) /len(data)
+
+
+# print("Mean Salary:", mean)
+
+
+lowers = list(map(lambda x:{**x, 'name': x['name'].lower()},data))
+print(" Lowercase :", lowers)
+
 # Filter
-filtered = list(filter(lambda x: x["age"] >= 30, data))
+# filtered = list(filter(lambda x: x["age"] >= 30, data))
 
-# Mean Salary
-mean = sum(map(lambda x: x["salary"], data)) / len(data)
+# # Mean Salary
+# mean = sum(map(lambda x: x["salary"], data)) / len(data)
 
-# Lowercase1
-def to_lowercase(data):
-    lowercase = map(lambda x: x["name"].lower(), data)
-    return lowercase
-fiters = to_lowercase(data)
-# Lowercase 2
-lowercase = list(map(lambda x: {**x, "name": x["name"].lower()}, data))
+# # Lowercase1
+# def to_lowercase(data):
+#     lowercase = map(lambda x: x["name"].lower(), data)
+#     return lowercase
+# fiters = to_lowercase(data)
+# # Lowercase 2
+# lowercase = list(map(lambda x: {**x, "name": x["name"].lower()}, data))
 
-# Prints 
-print('='*80)
+# # Prints 
+# print('='*80)
 
-print("Filtered  (Age >= 30):", filtered)
-print('='*80)
+# print("Filtered  (Age >= 30):", filtered)
+# print('='*80)
 
-print("Mean Salary:", mean)
-print('='*80)
+# print("Mean Salary:", mean)
+# print('='*80)
 
-print(" Lowercase :", lowercase)
-print('='*80)
+# print(" Lowercase :", lowercase)
+# print('='*80)
 
-print(fiters)
+# print(fiters)
+
+
+
+
+
