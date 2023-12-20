@@ -1,8 +1,13 @@
 # Task1
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-suq = list(map(lambda x:x**2,a))
+squared_a = list(map(lambda x: x**2, a)) 
+print(squared_a)
 
-a_s=0
-for i in a:
-    a_s +=i**2
-print(a_s)
+a_sum = 0
+for x in a:
+    a_sum += x**2
+print(a_sum)
+
+
+
+
