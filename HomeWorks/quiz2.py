@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
 
-file_path = '/mnt/data/acs2015_county_data.csv'
+file_path = 'Datasets/acs2015_county_data.csv'
 data = pd.read_csv(file_path)
 
 def detect_outliers_iqr(data, column):
