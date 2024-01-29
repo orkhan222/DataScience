@@ -7,7 +7,3 @@ a_sum = 0
 for x in a:
     a_sum += x**2
 print(a_sum)
-
-
-
-
